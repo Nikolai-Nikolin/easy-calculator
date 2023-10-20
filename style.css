@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #dbdbdb;
+    padding: 30px;
+
+}
+
+.main-conteiner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px grey;
+}
+
+.input-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.input-conteiner input {
+    width: 90%;
+    height: 50px;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-display: flex;
+    justify-content: center;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+:-moz-placeholder {
+    font-size: 1.125rem;
+    text-align: center;
+}
+ 
+::-moz-placeholder {
+    font-size: 1.125rem;
+    text-align: center;
+}
+ 
+:-ms-input-placeholder {
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.buttons {
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.contein-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contein-btn:hover {
+    cursor: pointer;
+}
+
+.plus {
+    background-image: url('./img/icons8-плюс-50.png');
+    background-size: 120%;
+    background-position: center;
+}
+
+.plus:hover {
+    scale: 1.05;
+}
+
+.minus {
+    background-image: url('./img/icons8-минус-50.png');
+    background-size: 120%;
+    background-position: center;
+}
+
+.minus:hover {
+    scale: 1.05;
+}
+
+.multip {
+    background-image: url('./img/icons8-умножение-60.png');
+    background-size: 140%;
+    background-position: center;
+}
+
+.multip:hover {
+    scale: 1.05;
+}
+
+.split {
+    background-image: url('./img/icons8-деление-2-50.png');
+    background-size: 120%;
+    background-position: center;
+}
+
+.split:hover {
+    scale: 1.05;
+}
+
+.percent {
+    background-image: url('./img/icons8-процент-2-50.png');
+    background-size: 120%;
+    background-position: center;
+}
+
+.percent:hover {
+    scale: 1.05;
+}
+
+.reset {
+    background-image: url('./img/icons8-cs-50.png');
+    background-size: 120%;
+    background-position: center;
+}
+
+.reset:hover {
+    scale: 1.05;
+}
+
+.result {
+    width: 90%;
+    height: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.white-theme {
+    width: 20px;
+    height: 20px;
+    background-image: url('./img/icons8-солнце-30.png');
+    background-size: cover;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.white-theme:hover {
+    cursor: pointer;
+    scale: 1.10;
+}
+
+.dark-theme {
+    width: 20px;
+    height: 20px;
+    background-image: url('./img/icons8-не-беспокоить-2-24.png');
+    background-size: cover;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.dark-theme:hover {
+    cursor: pointer;
+    scale: 1.10;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    background-color: rgb(245, 101, 101);
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe:hover {
+    background-color: rgb(254, 64, 64);
+    scale: 1.05;
+}
